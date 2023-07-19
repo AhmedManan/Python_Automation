@@ -10,6 +10,7 @@ Welcome to the Python Automation Scripts Repository! This repository contains a 
 - [Scripts](#scripts)
   - [AutomateNewsAljazeera.py](#automatenewsaljazeerapy)
   - [AutomateNewsBackground.py](#automatenewsbackgroundpy)
+  - [AutoExtractionApplication.py](#autoextractionapplicationpy)
 - [License](#license)
 
 ## Getting Started
@@ -41,6 +42,17 @@ To use the script, ensure you have installed the necessary libraries: **Selenium
 
 
 This Python script demonstrates web scraping of news titles and links from the Al Jazeera website in headless mode using **Selenium**. The script uses the Chrome WebDriver to fetch the most-read news articles from the Al Jazeera homepage in **headless mode**.
+
+### AutoExtractionApplication.py
+
+This Python script utilizes the Selenium library for web scraping and automation. It extracts the most-read news titles and links from the Al Jazeera website and stores the data in a CSV file. The script uses the Chrome web driver from the Selenium WebDriver library and employs the Pandas library to organize the extracted data into a DataFrame. The script runs in headless mode (without displaying the browser window) using Chrome options. It is designed to be a self-contained application for automated news extraction from Al Jazeera's website.
+
+
+
+
+
+
+
 
 In headless mode, the web browser runs in the background without displaying a visible window, making the automation process faster and less intrusive.
 
