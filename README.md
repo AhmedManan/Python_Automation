@@ -8,6 +8,7 @@ Welcome to the Python Automation Scripts Repository! This repository contains a 
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Scripts](#scripts)
+  - [ExtractWebsiteTable.py](#extractwebsitetablepy)
   - [AutomateNewsAljazeera.py](#automatenewsaljazeerapy)
   - [AutomateNewsBackground.py](#automatenewsbackgroundpy)
   - [AutoExtractionApplication.py](#autoextractionapplicationpy)
@@ -31,6 +32,10 @@ To run the Python scripts in this repository, you need to have the following ins
 2. Install all the Prerequisites libraries
 
 ## Scripts
+
+### ExtractWebsiteTable.py
+
+This Python script utilizes the **Pandas library** to read HTML data from the Wikipedia page titled "List of Game of the Year awards." It extracts a specific table (index 1) from the webpage and saves it as a CSV file named "GameList.csv." The script is designed to automate the extraction and storage of game-related award data from the Wikipedia page in a structured and easily accessible format.
 
 ### AutomateNewsAljazeera.py
 
